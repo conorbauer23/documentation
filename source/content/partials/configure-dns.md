@@ -14,7 +14,9 @@ The <Icon icon="triangleExclamation" /> icon within the Domains / HTTPS page ind
 1. Navigate to the **<Icon icon="global" /> Domains / HTTPS** page.
 1. Select **Details** next to the `www` domain.
 1. Log in to the DNS host for the domain in a separate window.
-1. Copy the value provided in the Pantheon Site Dashboard for the required **A** record, then use it to create an **A** record wherever you manage DNS. Repeat this step for <i>both</i> of the AAAA records.
+1. Copy the value provided in the Pantheon Site Dashboard for the required **TXT** records, then use them to create a **TXT** record wherever you manage DNS. 
+1. Click **Verify Domain**
+1. Once verified, Copy the value provided in the Pantheon Site Dashboard for the required **A** record, then use it to create an **A** record wherever you manage DNS. Repeat this step for <i>both</i> of the AAAA records.
 1. Return to the **<Icon icon="global" /> Domains / HTTPS** page in the Pantheon Site Dashboard.
 1. Click **Details** next to the bare domain.
 1. Copy the value provided in the Pantheon Site Dashboard for the required **A** record, then use it to create an A record wherever you manage DNS. Repeat this step for <i>both</i> of the AAAA records.
