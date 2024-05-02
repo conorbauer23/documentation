@@ -10,7 +10,7 @@ reviewed: ""
 
 ## Provision HTTPS
 
-The process to provision certificates kicks off automatically after the domain has been successfully routed to Pantheon, and is indicated by the following notice:
+The certificate provisioning process begins once domain ownership is verified through the necessary TXT records added to your DNS provider and successfully directed to Pantheon. This will be confirmed by the following notice:
 
 <Partial file="notes/https-info.md" />
 
